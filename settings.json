@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "boting",
+    "username": "Boted",
     "password": "",
     "type": "offline"
   },
@@ -19,7 +19,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "1234321234321"
+      "password": "haha1029"
     },
     "anti-afk": {
       "enabled": true,
@@ -28,7 +28,7 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 50000000000000000000,
+      "repeat-delay": 500,
       "messages": [
         "I'm a regular player",
         "Subscribe to Slobos!",
@@ -36,8 +36,8 @@
       ]
     },
     "chat-log": true,
-    "auto-reconnect": false,
-    "auto-reconnect-delay": 0,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 20000,
     "periodic-rejoin": {
       "enabled": true,
@@ -81,7 +81,7 @@
     "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
     "events": {
       "connect": true,
-      "disconnect": false,
+      "disconnect": true,
       "chat": false
     }
   },
